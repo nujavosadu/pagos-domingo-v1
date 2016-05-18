@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clientes"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:onClick="showClientes"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Productos"
+            android:id="@+id/button2"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:onClick="showCarros"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Empleados"
+            android:id="@+id/button3"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:onClick="showVendedores"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nueva cotización"
+            android:id="@+id/button4"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:onClick="nuevaCotizacion"/>
+
+    </LinearLayout>
+</RelativeLayout>
